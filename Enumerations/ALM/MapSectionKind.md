@@ -1,4 +1,4 @@
-### MapSectionKind
+### Map Section Kind
 
 This enumeration contains data that is useful to determine the type of a section
 
@@ -18,3 +18,4 @@ Identifier | Meaning
       0x07 | Triggers
       0x08 | Sacks
       0x09 | Effects
+-----------|-------------------------

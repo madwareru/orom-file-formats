@@ -24,3 +24,4 @@ Identifier | Meaning
       0x4C | Turtle
       0x4F | Goblin Sling
       0x50 | Orc Sword
+-----------|----------------
