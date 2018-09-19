@@ -1,2 +1,2 @@
-#Resource File Format Description
+# Resource File Format Description
 TO BE CONSTRUCTED
