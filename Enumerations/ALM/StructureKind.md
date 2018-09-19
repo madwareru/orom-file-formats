@@ -35,9 +35,9 @@ Id | Meaning | Id | Meaning
  0x18 | Bee House 2 | 0x38 | Castle
  0x19 | Leg's House | 0x39 | Sphinx
  0x1A | Magic Symbol | 0x3A | Sphinx 2
- 0x1B | Switch | --- | ---
- 0x1C | Switch 2 | --- | ---
- 0x1D | Ruins | --- | ---
+ 0x1B | Switch | --//-- | --//--
+ 0x1C | Switch 2 | --//-- | --//--
+ 0x1D | Ruins | --//-- | --//--
  0x1E | Ruins 2 | 0x40 | Sphinx 8
  0x1F | Ruins 3 | 0x41 | Multiplayer Church
 
