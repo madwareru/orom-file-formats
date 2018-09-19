@@ -19,5 +19,5 @@ TO BE CONSTRUCTED
 16. Weapon Item
 17. Magic Item
 18. Structure Kind
-19. Monster Kind
-20. Map Section Kind
+19. [Monster Kind](https://github.com/madwareru/orom-file-formats/blob/master/Enumerations/ALM/MonsterKind.md)
+20. [Map Section Kind](https://github.com/madwareru/orom-file-formats/blob/master/Enumerations/ALM/MapSectionKind.md)
