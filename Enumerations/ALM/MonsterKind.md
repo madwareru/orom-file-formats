@@ -6,7 +6,7 @@ Each entry takes two bytes in a memory and stores in a unit entry in a **TypeId*
 
 The following table describes them all:
 
-Identifier | Meaning
+Id | Meaning
 -----------|----------------
  0x1A | Catapult
  0x1B | Ballista

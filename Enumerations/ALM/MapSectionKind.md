@@ -6,7 +6,7 @@ Each entry takes one byte in a memory
 
 The following table describes them all:
 
-Identifier | Meaning
+Id | Meaning
 -----------|-------------------------
  0x00 | General map information
  0x01 | Tiles
