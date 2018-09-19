@@ -18,12 +18,12 @@ id | Meaning
 0x07 | Health Max
 0x08 | Health Regeneration
 0x09 | Mana
-0x0A | ManaMax
+0x0A | Mana Max
 0x0B | Mana Regeneration
-0x0C | ToHit
+0x0C | To Hit
 0x0D | Damage Min
 0x0E | Damage Max
-0x0F | Defence
+0x0F | Defense
 0x10 | Absorption
 0x11 | Speed
 0x12 | Rotation Speed
@@ -34,17 +34,17 @@ id | Meaning
 0x17 | Protection Air
 0x18 | Protection Earth
 0x19 | Protection Astral
-0x1A | FighterSkill0
+0x1A | Fighter Skill 0
 0x1B | Skill Blade
 0x1C | Skill Axe
 0x1D | Skill Bludgeon
 0x1E | Skill Pike
 0x1F | Skill Shooting
-0x20 | MageSkill0
+0x20 | Mage Skill 0
 0x21 | Skill Fire
 0x22 | Skill Water
 0x23 | Skill Air
-0x24 | SKill Earth
+0x24 | Skill Earth
 0x25 | Skill Astral
 0x26 | Item Lore
 0x27 | Magic Lore
