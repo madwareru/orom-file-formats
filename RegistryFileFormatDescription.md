@@ -1,2 +1,2 @@
-# Registry file format description
+## Registry file format description
 TO BE CONSTRUCTED
