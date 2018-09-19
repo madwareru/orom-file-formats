@@ -1,17 +1,17 @@
 ## Here are listed all enumerations used in the game internally
 TO BE CONSTRUCTED
 
-1. Diplomacy State
+1. [Diplomacy State](./Enumerations/ALM/DiplomacyState.md)
 2. Parameter Type
 3. Magic Type
-4. Magic Sphere
+4. [Magic Sphere](./Enumerations/ALM/MagicSphere.md)
 5. Logic Check Type
 6. Argument Type
 7. Logic Instance
 8. Formation Command
 9. Check Operator
 10. Map Object
-11. Item Rarity
+11. [Item Rarity](./Enumerations/ALM/ItemRarity.md)
 12. Item Kind
 13. Item Material
 14. Wieldable Item
