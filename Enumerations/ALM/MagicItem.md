@@ -2,7 +2,7 @@
 
 This enumeration contains data that is useful to determine the magic item kind
 
-Each entry takes one byte in a memory but in fact is stored as a part of a packed [ItemId](../../ALMFormat/ItemIdMeaning.md)
+Each entry takes one byte in a memory, but in fact is stored as a part of a packed [ItemId](../../ALMFormat/ItemIdMeaning.md)
 
 The following table describes all available values:
 

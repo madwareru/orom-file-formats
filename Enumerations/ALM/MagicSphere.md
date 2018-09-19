@@ -1,6 +1,7 @@
 ### Magic Sphere
 
 This enumeration contains data that is useful to determine the magic sphere
+
 Each entry takes one byte in a memory
 
 The following table describes all available values:
