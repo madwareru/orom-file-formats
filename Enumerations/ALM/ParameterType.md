@@ -57,3 +57,4 @@ id | Meaning
 0x2E | Damage Air
 0x2F | Damage Earth
 0x30 | Damage Astral
+0x31 | Damage Bonus

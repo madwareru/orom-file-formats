@@ -1,23 +1,22 @@
 ## Here are listed all enumerations used in the game internally
-TO BE CONSTRUCTED
 
 1. [Diplomacy State](./Enumerations/ALM/DiplomacyState.md)
-2. Parameter Type
-3. Magic Type
+2. [Parameter Type](./Enumerations/ALM/ParameterType.md)
+3. [Magic Type](./Enumerations/ALM/MagicType.md)
 4. [Magic Sphere](./Enumerations/ALM/MagicSphere.md)
-5. Logic Check Type
-6. Argument Type
-7. Logic Instance
-8. Formation Command
-9. Check Operator
-10. Map Object
+5. [Logic Check Type](./Enumerations/ALM/LogicCheckType.md)
+6. [Argument Type](./Enumerations/ALM/ArgumentType.md)
+7. [Logic Instance](./Enumerations/ALM/LogicInstanceType.md)
+8. [Formation Command](./Enumerations/ALM/FormationCommand.md)
+9. [Check Operator](./Enumerations/ALM/CheckOperator.md)
+10. [Map Object](./Enumerations/ALM/MapObject.md)
 11. [Item Rarity](./Enumerations/ALM/ItemRarity.md)
-12. Item Kind
-13. Item Material
-14. Wieldable Item
-15. Shield Item
-16. Weapon Item
-17. Magic Item
+12. [Item Kind](./Enumerations/ALM/ItemKind.md)
+13. [Item Material](./Enumerations/ALM/ItemMaterial.md)
+14. [Wieldable Item](./Enumerations/ALM/WieldableItem.md)
+15. [Shield Item](./Enumerations/ALM/ShieldItem.md)
+16. [Weapon Item](./Enumerations/ALM/WeaponItem.md)
+17. [Magic Item](./Enumerations/ALM/MagicItem.md)
 18. [Structure Kind](./Enumerations/ALM/StructureKind.md)
 19. [Monster Kind](./Enumerations/ALM/MonsterKind.md)
 20. [Map Section Kind](./Enumerations/ALM/MapSectionKind.md)
