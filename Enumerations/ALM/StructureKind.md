@@ -40,14 +40,4 @@ Id | Meaning | Id | Meaning
  0x1D | Ruins | --//-- | --//--
  0x1E | Ruins 2 | 0x40 | Sphinx 8
  0x1F | Ruins 3 | 0x41 | Multiplayer Church
-
-
-
-
-
-
-
-
-
-
-TODO: DESCRIBE THE REST OF ENTRIES
+ 
