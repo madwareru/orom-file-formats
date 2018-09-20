@@ -2,7 +2,7 @@
 
 This enumeration contains data that is useful to determine the type of a structure
 
-Each entry takes four bytes in a memory and stores in a structure entry in a **StructureDeclarationId** field.
+Each entry takes four bytes in a memory and stores in a [Structure Record](../../ALMFormat/Records/Structure.md) in a `StructureId` field.
 
 The following table describes them all:
 
@@ -40,14 +40,3 @@ Id | Meaning | Id | Meaning
  0x1D | Ruins | --//-- | --//--
  0x1E | Ruins 2 | 0x40 | Sphinx 8
  0x1F | Ruins 3 | 0x41 | Multiplayer Church
-
-
-
-
-
-
-
-
-
-
-TODO: DESCRIBE THE REST OF ENTRIES
