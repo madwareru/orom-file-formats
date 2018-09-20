@@ -25,7 +25,7 @@ additionally describes its level (from 1 to 4)
 
 ### SackId description
 If not storing a zero value, points to an identifier of a sacks section entry,
-where the connected sack(think about it as of a units inventory) described.
+where the connected [Sack](./Sack.md)(think about it as of a units inventory) described.
 
 ### SpecialFlags description
 This value contains set of flags such as `IsQuestForKill`(zero bit),
