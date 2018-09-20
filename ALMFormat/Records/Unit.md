@@ -36,4 +36,5 @@ from the ALM format for the **Allods II** and should be tested.
 ### ViewAngle description
 Storing value in a range `[0..15]` with a meaning of angle of view of
 a unit(where it looks at map start).
+
 `AngleInDegrees = ViewAngle * 22.5f`
