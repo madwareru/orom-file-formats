@@ -35,4 +35,4 @@ Offset | Size | Meaning
 0x12 | 0x02 | `Magic Type`. Points to [Magic Type](../../Enumerations/ALM/MagicType.md)
 0x14 | 0x02 | `Magic Force`. Value in range `[0..100]`
 0x16 | 0x04 | `Modifier count`.
---- | var | [Effect Modifiers](./EffectModifier.md) in amount stored in `Modifier count`
+0x1A | 0x06 * `Modifier count` | [Effect Modifiers](./EffectModifier.md) in amount stored in `Modifier count`
