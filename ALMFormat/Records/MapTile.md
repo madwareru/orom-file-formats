@@ -1,10 +1,10 @@
-## MapTile Record
+## Map Tile Record
 
- offset | size | Meaning
+ Offset | Size | Meaning
 --------|------|--------
-0x00 | 0x02 | `TileId`.
+0x00 | 0x02 | `Tile Id`.
 
-`TileId` is, in fact, a composite identifier,
+`Tile Id` is, in fact, a composite identifier,
 which consists of terrainId, tileColumnId, and tileRowId.
 In addition, it also contains a passability flag   
 

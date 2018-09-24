@@ -8,6 +8,6 @@ Records to be described
  - [x] Logic Check
  - [x] Logic Instance
  - [x] Logic Trigger
- - [ ] Map Object
- - [ ] Fraction
+ - [x] Map Object
+ - [x] Fraction
  - [ ] Effect

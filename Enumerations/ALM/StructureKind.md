@@ -2,7 +2,7 @@
 
 This enumeration contains data that is useful to determine the type of a structure
 
-Each entry takes four bytes in a memory and stores in a [Structure Record](../../ALMFormat/Records/Structure.md) in a `StructureId` field.
+Each entry takes four bytes in a memory and stores in a [Structure Record](../../ALMFormat/Records/Structure.md) in a `Structure Id` field.
 
 The following table describes them all:
 

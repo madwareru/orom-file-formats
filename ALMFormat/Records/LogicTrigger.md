@@ -1,6 +1,6 @@
 ## Logic Trigger Record
 
- offset | size | Meaning
+ Offset | Size | Meaning
 --------|------|--------
 0x00 | 0x80 | `Name`. Human readable name ended with terminal zero.
 0x80 | 0x04 | `Check 0 Id`. Points to a [Logic Check](./LogicCheck.md) with corresponding `Id`
