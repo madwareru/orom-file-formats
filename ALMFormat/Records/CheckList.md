@@ -10,4 +10,4 @@ Records to be described
  - [x] Logic Trigger
  - [x] Map Object
  - [x] Fraction
- - [ ] Effect
+ - [x] Effect
