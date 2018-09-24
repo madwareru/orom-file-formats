@@ -4,7 +4,7 @@ This enumeration contains data that is useful to determine the Diplomacy of a fr
 
 Each entry takes one byte in a memory.
 
-Each Fraction Record stores sixteen entries of this type in fields **Diplomacy 0**, **Diplomacy 1** .. **Diplomacy E**, **Diplomacy F**
+Each [Fraction Record](../../ALMFormat/Records/Fraction.md) stores sixteen entries of this type in fields **Diplomacy 0**, **Diplomacy 1** .. **Diplomacy E**, **Diplomacy F**
 
 The following table describes all available values:
 
