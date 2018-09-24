@@ -1,5 +1,7 @@
 ### Check operator
 
+Used in [Logic Trigger](../../ALMFormat/Records/LogicTrigger.md)
+
 This enumeration contains data that is useful to determine the check operator in a logic
 
 Each entry takes one byte in a memory

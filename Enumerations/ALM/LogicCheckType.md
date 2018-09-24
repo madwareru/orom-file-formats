@@ -1,5 +1,7 @@
 ### Logic check type
 
+Used in [Logic Check](../../ALMFormat/Records/LogicCheck.md)
+
 This enumeration contains data that is useful to determine the logic check type
 
 Each entry takes four bytes in a memory
