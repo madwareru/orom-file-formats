@@ -8,7 +8,7 @@ Each entry takes four bytes in a memory
 
 The following table describes all available values:
 
- id | Meaning
+ Id | Meaning
 ----|---------
  0x00 | Unknown
  0x01 | Group Unit Count

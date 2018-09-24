@@ -2,7 +2,7 @@
 
 This enumeration contains data that is useful to determine the type of a monster
 
-Each entry takes two bytes in a memory and stores in a unit entry in a **TypeId** field.
+Each entry takes two bytes in a memory and stores in a unit entry in a **Type Id** field.
 
 The following table describes them all:
 

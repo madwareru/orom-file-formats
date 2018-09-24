@@ -8,7 +8,7 @@ Each entry takes one byte in a memory
 
 The following table describes all available values:
 
-id | Meaning
+Id | Meaning
 ----|---------
 0x01 | Number
 0x02 | Group

@@ -6,7 +6,7 @@ Each entry takes one byte in a memory
 
 The following table describes all available values:
 
-id | Meaning
+Id | Meaning
 ----|---------
  0x01 | Pine1
  0x03 | Pine1Dead

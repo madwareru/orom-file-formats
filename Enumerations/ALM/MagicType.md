@@ -6,7 +6,7 @@ Each entry takes one byte in a memory
 
 The following table describes all available values:
 
-id | Meaning
+Id | Meaning
 ----|---------
 0x00 | None
 0x01 | Fire Arrow

@@ -8,14 +8,14 @@ Each entry takes four bytes in a memory
 
 The following table describes all available values:
 
-id | Meaning
+Id | Meaning
 ----|---------
  0x00 | Unknown
  0x01 | Increment Mission Stage
  0x02 | Send Message
  0x03 | Set Variable Value
- 0x04 | Forse Mission Complete
- 0x05 | Forse Mission Failed
+ 0x04 | Force Mission Complete
+ 0x05 | Force Mission Failed
  0x06 | Command
  0x07 | Keep Formation
  0x08 | Increment Variable

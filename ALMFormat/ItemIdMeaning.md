@@ -1,9 +1,9 @@
-### ItemId Meaning
+### Item Id Meaning
 
-**ItemId** is a packed identifier which, in fact, stores more than a single value
+**Item Id** is a packed identifier which, in fact, stores more than a single value
 
 It has a following structure:
-![ItemId structure](./ItemId.gif)
+![Item Id structure](./ItemId.gif)
 
 [Material ID](../Enumerations/ALM/ItemMaterial.md) is related to a quality of an item. [Magic Item](../Enumerations/ALM/MagicItem.md) doesn't have this.
 
@@ -11,6 +11,6 @@ It has a following structure:
 
 [Rarity ID](../Enumerations/ALM/ItemRarity.md) is related to a chance to find this kind of an item in the game, and, surprisingly, affects item's parameters and price similarly to a Material. [Magic Item](../Enumerations/ALM/MagicItem.md) doesn't have this.
 
-**Item ID** is, in fact, an identifier in one of the following enumerations -- [[Weapons](../Enumerations/ALM/WeaponItem.md), [Shields](../Enumerations/ALM/ShieldItem.md), [Wieldables](../Enumerations/ALM/WieldableItem.md)] -- in the case of `Kind ID != Magic Item`
+**Item ID** is, in fact, an identifier in one of the following enumerations -- [Weapons](../Enumerations/ALM/WeaponItem.md), [Shields](../Enumerations/ALM/ShieldItem.md), [Wieldables](../Enumerations/ALM/WieldableItem.md)] -- in the case of `Kind ID != Magic Item`
 
-**Magic Irem ID** is, in fact, an identifier in [Magic Items](../Enumerations/ALM/MagicItem.md) enumeration in the case of `Kind ID == Magic Item`
+**Magic Item ID** is, in fact, an identifier in [Magic Items](../Enumerations/ALM/MagicItem.md) enumeration in the case of `Kind ID == Magic Item`
