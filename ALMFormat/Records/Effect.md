@@ -4,6 +4,7 @@ Effect record represent two kinds of things actually, it could be
 **Effect** bound to an item, or, in other case, it could be a **Trap**
 
 For the `Trap` format is following:
+
  Offset | Size | Meaning
 --------|------|--------
 0x00 | 0x04 | `Corrupt Effect Id`. Not used. The real `Effect Id` is just order number in a table
@@ -22,6 +23,7 @@ For the `Trap` format is following:
 0x24 | 0x02 | NOT Used
 
 For the `Effect` format is next:
+
 Offset | Size | Meaning
 --------|------|--------
 0x00 | 0x04 | `Corrupt Effect Id`. Not used. The real `Effect Id` is just order number in a table
