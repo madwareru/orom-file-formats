@@ -1,5 +1,7 @@
 ### Argument type
 
+Used in [Logic Check](../../ALMFormat/Records/LogicCheck.md) and [Logic Instace](../../ALMFormat/Records/LogicInstance.md)
+
 This enumeration contains data that is useful to determine the argument type in a logic
 
 Each entry takes one byte in a memory

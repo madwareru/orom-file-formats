@@ -1,5 +1,7 @@
 ### Logic instance type
 
+Used in [Logic Instance](../../ALMFormat/Records/LogicInstance.md)
+
 This enumeration contains data that is useful to determine the instance type in a logic
 
 Each entry takes four bytes in a memory
