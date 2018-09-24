@@ -3,7 +3,7 @@
  offset | size | Meaning
 --------|------|--------
 0x000 | 0x40 | `Name`. Human readable name ended with terminal zero.
-0x040 | 0x04 | `Check Type`. Points to a [Logick Instance Type](../../Enumerations/ALM/LogicInstanceType.md)
+0x040 | 0x04 | `Check Type`. Points to a [Logic Instance Type](../../Enumerations/ALM/LogicInstanceType.md)
 0x044 | 0x04 | `Id`. Unique identifier of an instance
 0x048 | 0x04 | `Execute Once Flag`.
 0x04C | 0x04 | `Argument 0 Value`.
