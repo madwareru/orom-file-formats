@@ -1,6 +1,6 @@
 ## Logic Check Record
 
- offset | size | Meaning
+ Offset | Size | Meaning
 --------|------|--------
 0x000 | 0x40 | `Name`. Human readable name ended with terminal zero.
 0x040 | 0x04 | `Check Type`. Points to a [Logic Check Type](../../Enumerations/ALM/LogicCheckType.md)

@@ -1,6 +1,6 @@
 ## Map Tile Record
 
- offset | size | Meaning
+ Offset | Size | Meaning
 --------|------|--------
 0x00 | 0x02 | `Tile Id`.
 

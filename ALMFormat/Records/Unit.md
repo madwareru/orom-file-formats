@@ -1,6 +1,6 @@
 ## Unit Record
 
- offset | size | Meaning
+ Offset | Size | Meaning
 --------|------|--------
 0x00 | 0x04 | (`X Coord` * 0x100) + 0x80 (sort of a fixed point value)
 0x04 | 0x04 | (`Y Coord` * 0x100) + 0x80 (sort of a fixed point value)

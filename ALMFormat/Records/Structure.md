@@ -1,6 +1,6 @@
 ## Structure Record
 
- offset | size | Meaning
+ Offset | Size | Meaning
 --------|------|--------
 0x00 | 0x02 | `Id`. Identifier of an entry in structures section
 0x02 | 0x04 | (`X Coord` * 0x100) + 0x80 (sort of a fixed point value)

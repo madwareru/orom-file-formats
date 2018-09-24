@@ -1,6 +1,6 @@
 ## Item Record
 
- offset | size | Meaning
+ Offset | Size | Meaning
 --------|------|--------
 0x00 | 0x04 | `Item Id`. See [Item Id Meaning](../ItemIdMeaning.md)
 0x04 | 0x02 | `Wielded`.
