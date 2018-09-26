@@ -10,4 +10,4 @@ gives a knowledge about the type of a section.
  0x04 | Size of this header. Always `0x14`.
  0x04 | Size of the section data.
  0x04 | [Map Section Kind](../../Enumerations/ALM/MapSectionKind.md).
- 0x04 | Random number. This number is the same for all section headers
+ 0x04 | Random number. This number is the same for all headers
