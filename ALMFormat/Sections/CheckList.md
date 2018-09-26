@@ -2,7 +2,7 @@ Sections to be described
 
  - [ ] Effects
  - [ ] Fractions
- - [ ] General Map Information
+ - [x] General Map Information
  - [ ] Height Map
  - [ ] Logic
  - [ ] Map Objects
