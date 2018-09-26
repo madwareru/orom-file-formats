@@ -1,8 +1,8 @@
 ## Map Tile Record
 
- Offset | Size | Meaning
---------|------|--------
-0x00 | 0x02 | `Tile Id`.
+ Size | Meaning
+------|--------
+ 0x02 | `Tile Id`.
 
 `Tile Id` is, in fact, a composite identifier,
 which consists of terrainId, tileColumnId, and tileRowId.

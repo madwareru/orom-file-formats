@@ -1,19 +1,19 @@
 ## Unit Record
 
- Offset | Size | Meaning
---------|------|--------
-0x00 | 0x04 | (`X Coord` * 0x100) + 0x80 (sort of a fixed point value)
-0x04 | 0x04 | (`Y Coord` * 0x100) + 0x80 (sort of a fixed point value)
-0x08 | 0x02 | `Type Id`.
-0x0A | 0x02 | `Face Id`.
-0x0C | 0x04 | `Special Flags`.
-0x10 | 0x04 | `Server Id`. Helps to find a right entry in a humans declaration
-0x14 | 0x04 | `Fraction Id`. Value in a range `[1..16]` points to a fraction this unit belongs
-0x18 | 0x04 | `Sack Id`.
-0x1C | 0x04 | `View Angle`.
-0x20 | 0x20 | Some trash values which seemed to be used nearly never
-0x40 | 0x02 | `Id`. Identifier of a unit entry in units section
-0x42 | 0x04 | `Group Id`. Giving the knowledge for which group this unit belongs
+ Size | Meaning
+------|--------
+ 0x04 | (`X Coord` * 0x100) + 0x80 (sort of a fixed point value)
+ 0x04 | (`Y Coord` * 0x100) + 0x80 (sort of a fixed point value)
+ 0x02 | `Type Id`.
+ 0x02 | `Face Id`.
+ 0x04 | `Special Flags`.
+ 0x04 | `Server Id`. Helps to find a right entry in a humans declaration
+ 0x04 | `Fraction Id`. Value in a range `[1..16]` points to a fraction this unit belongs
+ 0x04 | `Sack Id`.
+ 0x04 | `View Angle`.
+ 0x20 | Some trash values which seemed to be used nearly never
+ 0x02 | `Id`. Identifier of a unit entry in units section
+ 0x04 | `Group Id`. Giving the knowledge for which group this unit belongs
 
 ### Type Id description
 In case of `Server Id == 0` this id points to a [Monster Kind](../../Enumerations/ALM/MonsterKind.md),
