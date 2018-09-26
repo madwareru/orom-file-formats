@@ -1,6 +1,6 @@
 Sections to be described
 
- - [ ] Effects
+ - [x] Effects
  - [x] Fractions
  - [x] General Map Information
  - [x] Height Map
