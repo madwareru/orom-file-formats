@@ -1,4 +1,4 @@
-## General Map Definition Section
+## General Map Information Section
 
 Overall size of the section is `0x278`
 

@@ -3,10 +3,10 @@ Sections to be described
  - [ ] Effects
  - [ ] Fractions
  - [x] General Map Information
- - [ ] Height Map
+ - [x] Height Map
  - [ ] Logic
  - [ ] Map Objects
  - [ ] Sacks
  - [ ] Structures
- - [ ] Tile Map
+ - [x] Tile Map
  - [ ] Units
