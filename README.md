@@ -11,5 +11,5 @@ This information is widely used in the project **Open Rage Of Mages** on which I
 2. [Registry File Format Revealed](./RegistryFileFormatDescription.md)
 3. [data.bin File Format Revealed](./DataBinFileFormat.md)
 4. [Image File Formats Revealed](./ImageFileFormats.md)
-5. [ALM File Format Revealed](./ALMFileFormatDescription.md)
+5. [ALM File Format Revealed](./ALMFormat/ALMFileFormat.md)
 6. [List of Enumerations](./ListOfEnumerations.md)
