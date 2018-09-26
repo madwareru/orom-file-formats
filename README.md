@@ -5,7 +5,6 @@ This repository contains information about the details of internal representatio
 
 This information is widely used in the project **Open Rage Of Mages** on which I am working at spare time every day.
 
----
 ## Contents
 1. [Resources File Format Revealed](./ResourceFileFormatDescription.md)
 2. [Registry File Format Revealed](./RegistryFileFormatDescription.md)
