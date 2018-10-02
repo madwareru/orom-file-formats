@@ -21,4 +21,4 @@
 19. [Monster Kind](./Enumerations/ALM/MonsterKind.md)
 20. [Map Section Kind](./Enumerations/ALM/MapSectionKind.md)
 
-[ALL enumerations in one pic](./Enumerations/Enumerations.png)
+[ALL enumerations in one pic](./Enumerations/enumerations.png)
