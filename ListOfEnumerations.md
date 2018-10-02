@@ -20,3 +20,5 @@
 18. [Structure Kind](./Enumerations/ALM/StructureKind.md)
 19. [Monster Kind](./Enumerations/ALM/MonsterKind.md)
 20. [Map Section Kind](./Enumerations/ALM/MapSectionKind.md)
+
+[ALL enumerations in one pic](./Enumerations/Enumerations.png)
