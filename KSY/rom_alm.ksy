@@ -184,9 +184,6 @@ types:
 
   units_sec:
     seq:
-      # - id: raw
-      #   type: u1
-      #   repeat: eos
       - id: units
         type: unit_entry
         repeat: expr
@@ -252,9 +249,6 @@ types:
 
   triggers_sec:
     seq:
-      # - id: raw
-      #   type: u1
-      #   repeat: eos
       - id: instance_count
         type: u4
       - id: instances
@@ -359,9 +353,6 @@ types:
 
   sacks_sec:
     seq:
-      # - id: raw
-      #   type: u1
-      #   repeat: eos
       - id: sacks
         type: sack_entry
         repeat: expr
@@ -396,9 +387,6 @@ types:
 
   effects_sec:
     seq:
-      # - id: raw
-      #   type: u1
-      #   repeat: eos
       - id: effect_count
         type: u4
       - id: entries
