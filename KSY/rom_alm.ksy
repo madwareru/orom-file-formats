@@ -474,6 +474,7 @@ enums:
     7: triggers
     8: sacks
     9: effects
+
   argument_type:
     0x01: number
     0x02: group
@@ -484,6 +485,7 @@ enums:
     0x07: constant
     0x08: item
     0x09: structure
+
   check_type:
     0x00: unknown
     0x01: group_unit_count
@@ -511,6 +513,7 @@ enums:
     0x1A: spell_on_unit
     0x1B: is_unit_in_point
     0x10002: constant
+
   instance_type:
     0x00: unknown
     0x01: increment_mission_stage
@@ -551,6 +554,7 @@ enums:
     0x10002: start_here
     0x10003: respawn_group
     0x10004: change_music_to
+
   check_operator:
     0x00: equals
     0x01: not_equals
@@ -558,35 +562,12 @@ enums:
     0x03: lower_than
     0x04: greater_than_equals
     0x05: lower_than_equals
+
   diplomacy_state:
     0x00: neutral
     0x01: evil
     0x02: good
-  formation_command:
-    0x01: defend
-    0x02: move_cautiously_for_battle
-    0x03: dont_move
-    0x04: move
-    0x05: move_cautiously_for_battle_2
-    0x0A: attack
-    0x0B: defend_self
-    0x0E: patrol
-    0x0F: follow
-    0x11: wander
-    0x12: survive
-  item_kind:
-    0x00: unknown
-    0x01: weapon
-    0x02: shield
-    0x04: ring
-    0x05: amulet
-    0x06: helm
-    0x07: mail
-    0x08: cuirass
-    0x09: bracers
-    0x0A: gloves
-    0x0C: shoes
-    0x0E: magic_item
+
   magic_sphere:
     0x00: none
     0x01: fire
@@ -625,6 +606,7 @@ enums:
     27: curse
     28: slow
     29: unknown
+
   map_object:
     0x01: pine1
     0x03: pine1dead
@@ -701,44 +683,3 @@ enums:
     0x50: bones3
     0x51: bones4
     0x52: bones5
-  monster_kind:
-    0x1A: catapult
-    0x1B: ballista
-    0x40: goblin_pike
-    0x41: orc_bow
-    0x42: ogre
-    0x44: troll
-    0x45: ghost
-    0x46: bat_sonic
-    0x47: dragon
-    0x48: daemon
-    0x49: bee
-    0x4A: squirrel
-    0x4B: foot_animated
-    0x4C: turtle
-    0x4F: goblin_sling
-    0x50: orc_sword
-  vip_name:
-    21: pc_0
-    22: pc_1
-    23: pc_2
-    24: pc_3
-    25: pc_paladin
-    26: pc_elf
-    27: pc_treyrack
-    28: pc_lakhlana
-    29: npc_scrakan
-    30: npc_scrakan2
-    51: m10_witch
-    52: m10_merchant
-    53: m30_healer
-    54: m40_hima
-    55: f_brigand_leader_3
-    57: m130_veglud
-    60: a_peasant_guard_3
-    64: u_peasant_leader_3
-    68: m151_lord
-    69: m71_poor_guy
-    71: m_evil_female_2
-    75: f_knight_3
-    77: f_knight_4
