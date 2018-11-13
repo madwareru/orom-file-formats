@@ -175,6 +175,7 @@ types:
         type: str
         size: 0x20
         encoding: ASCII
+        terminator: 0
         doc: Player name. Ends with terminal zero
       - id: diplomacy_states
         type: u2
@@ -303,6 +304,7 @@ types:
         type: str
         size: 0x40
         encoding: ASCII
+        terminator: 0
       - id: type
         type: u4
         enum: check_type
@@ -323,6 +325,7 @@ types:
         type: str
         size: 0x40
         encoding: ASCII
+        terminator: 0
         repeat: expr
         repeat-expr: 10
   trigger_entry:
@@ -331,6 +334,7 @@ types:
         type: str
         size: 0x80
         encoding: ASCII
+        terminator: 0
       - id: check_identifiers
         type: u4
         repeat: expr
