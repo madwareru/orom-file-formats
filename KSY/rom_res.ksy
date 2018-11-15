@@ -4,6 +4,7 @@ meta:
   file-extension: res
   application: Rage Of Mages Seal Of Mystery
   license: CC0-1.0
+  encoding: IBM866
   endian: le
 seq:
   - id: signature
@@ -30,13 +31,12 @@ types:
       - id: file_name
         type: str
         size: 0x10
-        encoding: IBM866
         terminator: 0
     instances:
       bytes:
+        io: _root._io
         pos: _parent.root_offset
         size: _parent.root_size
-        io: _root._io
   directory_resource:
     seq:
       - id: directory_name
@@ -46,10 +46,10 @@ types:
         terminator: 0
     instances:
       nodes:
+        io: _root._io
         pos: _root.resource_header.fat_offset + _parent.root_offset * 0x20
         size: _parent.root_size * 0x20
         type: resource_header_list
-        io: _root._io
 
   resource_header:
     seq:
