@@ -137,6 +137,7 @@ types:
         type: structure_entry
         repeat: expr
         repeat-expr: _root.general_map_info.structure_count
+
   structure_entry:
     seq:
       - id: x_coord
@@ -145,7 +146,7 @@ types:
       - id: y_coord
         type: u4
         doc: (Y Coord * 0x100) + 0x80 (sort of a fixed point value)
-      - id: structure_kind
+      - id: type_id
         type: u4
       - id: health
         type: u2
@@ -155,6 +156,16 @@ types:
         doc: Value in a range [1..16] points to a fraction this structure belongs
       - id: id
         type: u2
+      - id: bridge_details
+        type: bridge_info
+        if: (type_id == 33)
+
+  bridge_info:
+    seq:
+      - id: width
+        type: u4
+      - id: height
+        type: u4
 
   fractions_sec:
     seq:
@@ -406,66 +417,25 @@ types:
         type: u4
       - id: trap_y
         type: u4
-      - id: effect
-        type: effect_record
-        if: (trap_x == 0) and (trap_y == 0)
-      - id: trap
-        type: trap_record
-        if: (trap_x != 0) or (trap_y != 0)
-  trap_record:
-    seq:
-      - id: flags
+      - id: flags_or_magic_sphere
         type: u2
-        doc: Zero bit => From Structure, First Bit => To Unit
-      - id: structure_id
-        type: u4
-      - id: magic_type
-        type: u2
-        enum: magic_type
-      - id: magic_force
-        type: u2
-        doc: Value in range [0..100]
-      - id: modifier_count
-        contents: [2, 0, 0, 0]
-      - id: from_x
-        type: u2
-      - id: from_y
-        type: u2
-      - id: not_used1
-        type: u2
-      - id: to_x
-        type: u2
-      - id: to_y
-        type: u2
-      - id: not_used2
-        type: u2
-  effect_modifier:
-    seq:
-      - id: modifier_type
-        type: u2
-      - id: modifier_value
-        type: u4
-  effect_record:
-    seq:
-      - id: magic_sphere
-        type: u2
-        enum: magic_sphere
-      - id: minimal_magic_damage
-        type: u2
-      - id: magic_damage_spread
-        type: u2
-      - id: magic_type
-        type: u2
-        enum: magic_type
-      - id: magic_force
-        type: u2
-        doc: Value in range [0..100]
+        doc: For flags it's Zero bit => From Structure, First Bit => To Unit
+      - id: service_data
+        type: u8
       - id: modifier_count
         type: u4
       - id: modifiers
         type: effect_modifier
         repeat: expr
         repeat-expr: modifier_count
+
+  effect_modifier:
+    seq:
+      - id: modifier_type
+        type: u2
+      - id: modifier_value
+        type: u4
+
 enums:
   section_kind_e:
     0: general
