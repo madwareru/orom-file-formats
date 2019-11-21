@@ -62,7 +62,7 @@ types:
             registry_type_e::int: int_entry
             registry_type_e::float: float_entry
             registry_type_e::int_array: int_array_entry
-            _: u1
+            _: byte_entry
         size: 0x08
       - id: typ
         type: u4
@@ -74,6 +74,11 @@ types:
     seq:
       - id: value
         type: s4
+
+  byte_entry:
+    seq:
+      - id: value
+        type: u1
 
   float_entry:
     seq:
