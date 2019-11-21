@@ -1,5 +1,5 @@
 meta:
-  id: rage_of_mages_1_256
+  id: rage_of_mages_1_bmp
   title: Rage Of Mages Seal Of Mystery *.bmp image files
   file-extension: bmp
   application: Rage Of Mages Seal Of Mystery
@@ -20,7 +20,7 @@ seq:
     type: u4
   - id: data
     type: bmp_data
-    if: (bi_version != 12) and (bi_version != 40)
+    if: (bi_version != 12) and (bi_version == 40)
 
 types:
   bmp_data:
@@ -46,11 +46,12 @@ types:
       - id: bi_clrimportant_unused
         type: u4
       - id: palette
-        type: u32
+        type: u4
         repeat: expr
         repeat-expr: 256
         if: (bi_bitcount == 8)
-      - id: pixels_data
+    instances:
+      pixels_data:
         io: _root._io
         pos: _root.bfh_pixeldata
         size: (width * height * bi_bitcount / 8)
