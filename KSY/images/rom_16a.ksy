@@ -1,5 +1,5 @@
 meta:
-  id: rage_of_mages_1_256
+  id: rage_of_mages_1_16a
   title: Rage Of Mages Seal Of Mystery *.16a image files
   file-extension: 16a
   application: Rage Of Mages Seal Of Mystery
@@ -12,7 +12,7 @@ doc: |
   effectively.
 seq:
   - id: inner_palette
-    type: u32
+    type: u4
     repeat: expr
     repeat-expr: 256
     if: (has_palette != 0)

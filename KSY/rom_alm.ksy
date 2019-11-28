@@ -127,7 +127,6 @@ types:
     seq:
       - id: objects
         type: u1
-        enum: map_object
         repeat: expr
         repeat-expr: _root.general_map_info.width * _root.general_map_info.height
 
@@ -190,7 +189,6 @@ types:
         doc: Player name. Ends with terminal zero
       - id: diplomacy_states
         type: u2
-        enum: diplomacy_state
         repeat: expr
         repeat-expr: 0x10
 
@@ -536,124 +534,3 @@ enums:
     0x03: lower_than
     0x04: greater_than_equals
     0x05: lower_than_equals
-
-  diplomacy_state:
-    0x00: neutral
-    0x01: evil
-    0x02: good
-
-  magic_sphere:
-    0x00: none
-    0x01: fire
-    0x02: water
-    0x03: air
-    0x04: earth
-    0x05: astral
-  magic_type:
-    0: none
-    1: fire_arrow
-    2: fire_ball
-    3: wall_of_fire
-    4: fire_sacrifice
-    5: protection_from_fire
-    6: heal
-    7: freezing_cloud
-    8: poison_cloud
-    9: acid_stream
-    10: protection_from_water
-    11: drain_life
-    12: light
-    13: lightning
-    14: prismatic_spray
-    15: invisibility
-    16: protection_from_air
-    17: darkness
-    18: shield
-    19: wall_of_earth
-    20: stone_curse
-    21: meteor_storm
-    22: protection_from_earth
-    23: bless
-    24: haste
-    25: control_spirit
-    26: teleport
-    27: curse
-    28: slow
-    29: unknown
-
-  map_object:
-    0x01: pine1
-    0x03: pine1dead
-    0x04: vallenwood1
-    0x06: vallenwood1dead
-    0x07: bush1
-    0x09: bush1dead
-    0x0a: fur1
-    0x0c: fur1dead
-    0x0d: iva1
-    0x0f: iva1dead
-    0x10: maple1
-    0x12: maple1dead
-    0x13: oak1
-    0x15: oak1dead
-    0x16: bigstone1
-    0x17: bigstone2
-    0x18: bigstone3
-    0x19: rock1
-    0x1a: rock2
-    0x1b: rock3
-    0x1c: smallstone1
-    0x1d: smallstone2
-    0x1e: smallstone3
-    0x1f: pointer1
-    0x20: pointer2
-    0x21: pointer3
-    0x22: pointer4
-    0x23: pointer5
-    0x24: pointer6
-    0x25: strangedevicepalkafromwell1
-    0x26: strangedevicepalkafromwell2
-    0x27: totem1
-    0x28: totem2
-    0x29: pine2
-    0x2a: pine2dead
-    0x2b: pine3
-    0x2c: pine3dead
-    0x2d: vallenwood2
-    0x2e: vallenwood2dead
-    0x2f: vallenwood3
-    0x30: vallenwood3dead
-    0x31: bush2
-    0x32: bush2dead
-    0x33: bush3
-    0x34: bush3dead
-    0x35: fur2
-    0x36: fur2dead
-    0x37: fur3
-    0x38: fur3dead
-    0x39: iva2
-    0x3a: iva2dead
-    0x3b: iva3
-    0x3c: iva3dead
-    0x3d: maple2
-    0x3e: maple2dead
-    0x3f: maple3
-    0x40: maple3dead
-    0x41: oak2
-    0x42: oak2dead
-    0x43: oak3
-    0x44: oak3dead
-    0x45: statue1
-    0x46: statue2
-    0x47: fence1
-    0x48: fence2
-    0x49: fence3
-    0x4a: fence4
-    0x4b: fence5
-    0x4c: fence6
-    0x4d: fence7
-    0x4e: bones1
-    0x4f: bones2
-    0x50: bones3
-    0x51: bones4
-    0x52: bones5
