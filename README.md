@@ -5,10 +5,6 @@ This repository contains information about the details of internal representatio
 
 This information is widely used in the project **Open Rage Of Mages** on which I am working at spare time every day.
 
-## Contents
-1. [Resources File Format Revealed](./ResourceFileFormatDescription.md)
-2. [Registry File Format Revealed](./RegistryFileFormatDescription.md)
-3. [data.bin File Format Revealed](./DataBinFileFormat.md)
-4. [Image File Formats Revealed](./ImageFileFormats.md)
-5. [ALM File Format Revealed](./ALMFormat/ALMFileFormat.md)
-6. [List of Enumerations](./ListOfEnumerations.md)
+Most of the useful information could be found in a KSY directory. 
+[ItemIdMeaning](./ItemIdMeaning.md) contains an explanatory material to get into the structure of Itemd
+[Effect](./Effect.md) contains an explanatory material to get more understanding on how effects stored
